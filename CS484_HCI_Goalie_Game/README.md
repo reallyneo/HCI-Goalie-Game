@@ -74,55 +74,6 @@ user id so it will just assign the user another id which probably doesn't match 
 still exits anyway... nevermind... It was an attempt nonetheless. Kinect ID reassignment blocks out lots of features...
 
 
-# - Collaboration Record -
-We divided the work evenly based on  each person's expertise and previous experience. Annika Xu 
-contributed a lot of work on the actual gameplay and flow of the project, as she coded the fundamental
-logic of the whole game, the alert windows, as well as the movement and speed of the soccer balls. 
-Nick (Jihe) He focused on data parsing, as well as helping Annika with gameflow and merging everyone's 
-work together. Naheem Watson and Ihtesham Khan tackled the html and overall game design. Naheem created 
-the main game page design, as well as the code the timer and level update, so that both change color as 
-the game progresses. Ihtesham created the eye-catching design for the intro and results html page. Ihtesham 
-and Naheem worked together to ensure that colors and themes were consisted over every screen. All 4 members 
-met multiple times to run tests, merge different work together, and get help when needed. Our consistent 
-communication over text-message is what led to a successful installation, and we are excited to move forward 
-to user testing!
 
 
-Below is same information, but written individually.
 
-Student Name and NetID: Annika Xu (xx238) 
-Contribution: 
-I programmed the underlying logic of the whole game including incorporing the server, changing game 
-progression accoridng to user actions, developing the gaming mechanism, creating countdowns and alerts,
-and enabling the transitions between different pages. I also worked closely with Nick to debug and
-fine-tune the projects and increase the game performance. As for tech stack, I used Python Flask to enable
-transition between pages, used HTML and CSS to develop the game interface and draft the rest of UI elements,
-and used JavaScript to achieve many funcationalies above. I also set up the project to present on display.
-
-
-Student Name and NetID: Jihe He (jh2972)
-Contribution: 
-I worked on data parsing and normalization to transform from user space data read in by the frame into the
-game html space data, especially the positions and orientations and other metadatas. I also contributed
-to the game structure design, including state machine, logic checks, etc. I also worked on adding some
-html and css elements for the game. For both game scene and intro scene, I worked closely with Annika
-at first for game system implementation and the rest of the group later on for visualization implementation
-and proper tuning. Everyone's work came together nicely at the end. I also did my assigned parts in README.
-
-
-Student Name and NetID: Naheem Watson (nrw27)
-Contribution: 
-I created the main game page design, as well as the code the timer and level update, so that
-both change color as the game progresses. I help integrate the code for scoring, html design, timer 
-and level difficulty. Our game updates as the time gets closer to running out and signals when the game 
-updates. I also did a lot of work with positioning of html design and creating a Readme page for our 
-project. 
-
-
-Student Name and NetID: Ihtesham Khan (ik352)
-Contribution: 
-I met with my group several times at our display, coordinating everyone’s different roles for the project. 
-I created the intro page which required me to do research on colorblind-friendly options, animations, and 
-other HTML/CSS concepts that I needed refreshers on. Throughout the entire process, I was also communicating
-with Naheem for UI consistency. I created a basic template for the leaderboard but we didn't end up using that
-screen. I created the last/result screen with some help from Annika
